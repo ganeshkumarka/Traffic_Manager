@@ -36,6 +36,10 @@
 
 // export default TrafficLight;
 
+
+
+//working
+
 import React, { useState, useEffect, useRef } from 'react';
 
 interface TrafficLightProps {
@@ -110,3 +114,4 @@ const TrafficLight: React.FC<TrafficLightProps> = ({ timing, vehicleCount, isGre
 };
 
 export default TrafficLight;
+
